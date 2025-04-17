@@ -75,7 +75,7 @@ class ProductoController extends Controller
 
             if ($Producto->mixto) {
             } else {
-                $productosQuery->whereNotIn('id', [69]);  /* Papa MIXTA */
+                $productosQuery->whereNotIn('id', [70]);  /* Papa MIXTA */
             }
 
             $productos = $productosQuery->get();
